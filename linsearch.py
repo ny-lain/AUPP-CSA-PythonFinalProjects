@@ -5,7 +5,7 @@ import random
 
 class StepControl:
     def __init__(self):
-        self.list = [x for x in range(1, 40)]
+        self.list = [x for x in range(1, 20)]
         self.reset()
         self.key = 0
 
@@ -64,7 +64,7 @@ def reset():
 window = Tk()  # Create a window
 window.title("Linear Search Animation")  # Set title
 
-width = 600
+width = 350
 height = 150
 radius = 2
 canvas = Canvas(window, width=width, height=height)
